@@ -1,20 +1,20 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{sensor-api-wrapper}
+  s.name = "sensor-api-wrapper"
   s.version = "0.1.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{James Croft}]
-  s.date = %q{2011-09-19}
-  s.email = %q{james.r.croft@gmail.com}
-  s.extra_rdoc_files = [%q{README.md}]
-  s.files = [%q{Gemfile}, %q{Gemfile.lock}, %q{README.md}, %q{lib/sensor}, %q{lib/sensor/client.rb}, %q{lib/sensor/connection.rb}, %q{lib/sensor.rb}]
-  s.homepage = %q{http://yoursite.example.com}
-  s.rdoc_options = [%q{--main}, %q{README.md}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{What this thing does}
+  s.authors = ["James Croft"]
+  s.date = "2011-09-21"
+  s.email = "james.r.croft@gmail.com"
+  s.extra_rdoc_files = ["README.md"]
+  s.files = ["Gemfile", "Gemfile.lock", "README.md", "lib/sensor/client.rb", "lib/sensor/connection.rb", "lib/sensor.rb"]
+  s.homepage = "http://yoursite.example.com"
+  s.rdoc_options = ["--main", "README.md"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "What this thing does"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
