@@ -1,0 +1,2 @@
+require 'sensor/client'
+
