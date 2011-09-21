@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = "2011-09-21"
   s.email = "james.r.croft@gmail.com"
   s.extra_rdoc_files = ["README.md"]
-  s.files = ["Gemfile", "Gemfile.lock", "README.md", "lib/sensor/client.rb", "lib/sensor/connection.rb", "lib/sensor.rb"]
+  s.files = ["Gemfile", "Gemfile.lock", "README.md", "lib/sensor", "lib/sensor/client.rb", "lib/sensor/connection.rb", "lib/sensor.rb"]
   s.homepage = "http://yoursite.example.com"
   s.rdoc_options = ["--main", "README.md"]
   s.require_paths = ["lib"]
